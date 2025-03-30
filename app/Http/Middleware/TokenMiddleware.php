@@ -16,6 +16,7 @@ class TokenMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         $request->headers->get('Authorization');
+        
         return $next($request);
     }
 }

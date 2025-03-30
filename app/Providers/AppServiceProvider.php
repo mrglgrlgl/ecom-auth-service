@@ -20,6 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+//for api authentication
 
         Passport::enablePasswordGrant();
 

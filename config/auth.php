@@ -40,6 +40,7 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+//for api authentication
         'api' => [
             'driver' => 'passport',
             'provider' => 'users'
@@ -113,6 +114,7 @@ return [
     | confirmation screen. By default, the timeout lasts for three hours.
     |
     */
+//for api authentication: call defined id and secret from env
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
 
