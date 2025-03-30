@@ -9,3 +9,6 @@ class VerifyCSRFToken extends Middleware
         'api/*',
     ];
 }
+
+//for api authentication: created middleware 
+

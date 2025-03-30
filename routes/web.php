@@ -6,3 +6,4 @@ Route::get('/', function () {
     return ['Laravel' => app()->version()];
 });
 
+//for api authentication: removed a line here
